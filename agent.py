@@ -9,7 +9,7 @@ client = OpenAI(
     base_url=os.getenv("KIMI_BASE_URL")
 )
 
-def chat(message, model="kimi-k2-5"):
+def chat(message, model="moonshot-v1-8k"):
     response = client.chat.completions.create(
         model=model,
         messages=[{"role": "user", "content": message}],

@@ -1,0 +1,8 @@
+llm_model: "Qwen/Qwen2-7B"
+llm_model_path: "./models/Qwen2-7B"
+use_cpu: true
+plugins:
+  - code_runner
+  - desktop_control
+  - speech_whisper
+  - blip_image
